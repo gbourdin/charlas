@@ -5,12 +5,16 @@ Van a encontrar las slides, los ejemplos que use, los notebooks, los datos que u
 
 Contenido:
 
-*cookiecutters*
+**cookiecutters**
+
 Aca van a encontrar api-template y predictor-template que son los que use para crear todos los ejemplos de la charla
 
-*examples*
+**examples**
+
 Acá van a encontrar  housingExample y mnistExample:
-*housingExample*:
+
+**housingExample**:
+
 - Implementa 2 predictores de precios de casas basados en las siguientes features:
     + Cantidad de habitaciones
     + Cantidad de baños
@@ -21,19 +25,25 @@ Acá van a encontrar  housingExample y mnistExample:
 - Hay una API REST configurada para servir el modelo basado en xgboost
 - Hay un frontend web para usar el predictor
 
-*mnistExample*
+**mnistExample**
+
 - Implementa un predictor basado en el ejemplo del tutorial de tensorflow que clasifica digitos escritos a mano
 - Hay modelos entrenados con distinta cantidad de epochs para el modelo
 - Hay una API REST configurada para servir el modelo
 - Hay un frontend web para poder dibujar numeros y obtener predicciones
 
-*input*
+
+**input**
+
 Acá está el dataset de kaggle que utilicé para entrenar los modelos de housingExample
 
-*notebooks*
+
+**notebooks**
+
 Hay un par de notebooks que no llegué a mostrar durante la charla donde juego un poco con los datos y voy probando distintos modelos que implementé luego
 
-*slides*
+
+**slides**
 El codigo fuente y las slides compiladas que utilice en la charla
 
 German Bourdin
