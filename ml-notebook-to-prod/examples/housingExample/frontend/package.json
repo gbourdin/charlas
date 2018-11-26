@@ -1,0 +1,21 @@
+{
+  "name": "webtools-elm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "elm-live src/*.elm --open --pushstate --output dist/bundle.js --debug",
+    "install": "elm-package install",
+    "build": "elm-make src/*.elm --output dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "elm": "^0.18.0",
+    "elm-live": "^2.6.0",
+    "elm-test": "^0.17.3"
+  },
+  "dependencies": {
+    "yarn": "^1.12.3"
+  }
+}
