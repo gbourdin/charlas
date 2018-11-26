@@ -1,0 +1,42 @@
+Cosas a recordar:
+Seguir haciendo model validation!
+xgboost ?
+tensorflow?
+pytorch?
+
+Notas:
+Este modelo es malisimo en realidad, si puede, viene y le pega a tu vieja!
+Pero todas las cosas que voy a decir son validas igual, quise usar XGBoost porque tiene la particularidad de no ser threadsafe
+RandomForest anda menos peor (igual son horribles las metricas)
+
+
+Viene mi prima y me dice "Esto esta andando re mal, no se que son esos numeros que me mostraste,
+pero la gente viene con cualquier idea del precio de su casa, al final es mejor que lo decida yo a ojo"
+
+Estoy perdiendo plata, hiciste cualquiera y me mentiste, si no me lo solucionas ya, te voy a hacer re cagar.
+Viene la pareja, la calma y le dice "no se soluciona con violencia esto, pongamos un abogado y nos quedamos con todo lo que tiene"
+
+Miro el modelo y me doy cuenta que en realidad cometi un error groserisimo cuando estime la calidad.
+
+Preparo otro modelo y tengo que pasarlo a produccion.
+
+
+Interfaz de ScikitLearn
+- Agregar dump y load
+- No conviene usar pickle
+- CPU vs GPU
+- GPU for training, ok
+
+Voy a hablar poco de machine learning porque ahi es donde me empiezo a equivocar y les digo cosas que no existen
+
+- Cosas a mencionar pero no mostrar:
++ Buffering y paralelizacion: Cuando predecir 1 tarda lo mismo que predecir 100
+
+Conclusiones:
+- Separen modelos de la api
+- Separen apis de frontend
+- Tengan interfaces standard
+- Tengan metricas y monitoreenlas
+- 
+
+Los R^2 debajo de 0.5 son una cagada, siempre
